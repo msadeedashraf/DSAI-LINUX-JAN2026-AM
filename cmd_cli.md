@@ -10,6 +10,8 @@ cd /
 dir
 ```
 
+- Create a new folder
+
 ```
 mkdir test-folder
 ```
