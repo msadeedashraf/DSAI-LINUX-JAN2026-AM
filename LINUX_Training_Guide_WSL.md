@@ -80,6 +80,12 @@ wsl ~
 wsl --shutdown
 ```
 
+**To start the WSL
+```
+wsl -d Ubuntu
+```
+
+
 **Stop a single distro (terminate):**
 ```powershell
 wsl --terminate <DistroName>
