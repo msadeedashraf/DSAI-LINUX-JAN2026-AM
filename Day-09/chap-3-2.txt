@@ -1,0 +1,298 @@
+Microsoft Windows [Version 10.0.26100.7623]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\marka>wsl
+mark@HomeOfficeHP:/mnt/c/Users/marka$ cd ~
+mark@HomeOfficeHP:~$ ls -l
+total 0
+mark@HomeOfficeHP:~$ cd
+mark@HomeOfficeHP:~$ cd /
+mark@HomeOfficeHP:/$ ls -l
+total 2796
+lrwxrwxrwx   1 root root       7 Apr 22  2024 bin -> usr/bin
+drwxr-xr-x   2 root root    4096 Feb 26  2024 bin.usr-is-merged
+drwxr-xr-x   2 root root    4096 Apr 22  2024 boot
+drwxr-xr-x  15 root root    3860 Feb  5 09:00 dev
+drwxr-xr-x  88 root root    4096 Feb  5 10:27 etc
+drwxr-xr-x   3 root root    4096 Feb  2 12:13 home
+-rwxr-xr-x   1 root root 2781568 Dec 11 20:58 init
+lrwxrwxrwx   1 root root       7 Apr 22  2024 lib -> usr/lib
+drwxr-xr-x   2 root root    4096 Apr  8  2024 lib.usr-is-merged
+lrwxrwxrwx   1 root root       9 Apr 22  2024 lib64 -> usr/lib64
+drwx------   2 root root   16384 Feb  2 12:07 lost+found
+drwxr-xr-x   2 root root    4096 Aug  5  2025 media
+drwxr-xr-x   6 root root    4096 Feb  2 12:07 mnt
+drwxr-xr-x   2 root root    4096 Aug  5  2025 opt
+dr-xr-xr-x 248 root root       0 Feb  5 09:00 proc
+drwx------   3 root root    4096 Aug  5  2025 root
+drwxr-xr-x  20 root root     600 Feb  5 09:38 run
+lrwxrwxrwx   1 root root       8 Apr 22  2024 sbin -> usr/sbin
+drwxr-xr-x   2 root root    4096 Mar 31  2024 sbin.usr-is-merged
+drwxr-xr-x   2 root root    4096 Feb  2 12:07 snap
+drwxr-xr-x   2 root root    4096 Aug  5  2025 srv
+dr-xr-xr-x  13 root root       0 Feb  5 09:46 sys
+drwxrwxrwt   9 root root    4096 Feb  5 09:39 tmp
+drwxr-xr-x  12 root root    4096 Aug  5  2025 usr
+drwxr-xr-x  13 root root    4096 Feb  2 12:07 var
+mark@HomeOfficeHP:/$ mnt/
+c/    d/    wsl/  wslg/
+mark@HomeOfficeHP:/$ mnt/c/
+$Recycle.Bin/                 Config.Msi/                   Intel/                        Program Files (x86)/          Users/                        logUploaderSettings.ini
+$SysReset/                    Documents & Files/            OneDriveTemp/                 ProgramData/                  Windows/                      logUploaderSettings_temp.ini
+1F0901223CE5                  Documents and Settings/       PerfLogs/                     Recovery/                     apps.crx
+CBC/                          Downloads/                    Program Files/                System Volume Information/    inetpub/
+mark@HomeOfficeHP:/$ mnt/c/CBC/01-linux/
+class-code/ my-work/
+mark@HomeOfficeHP:/$ mnt/c/CBC/01-linux/my-work/
+CourseTimeLine-DSAI-JAN-2026-AM 2.pdf              D76989GC20_sg 9.pdf                                file2.txt                                          test.txt.txt
+D76989GC20_ag 9.pdf                                Data_AI_Program_Overview_Microsoft_Courses 3.pptx  file3.txt
+D76989GC20_ppt 1.zip                               Practice Sheets/                                   lab/
+mark@HomeOfficeHP:/$ mnt/c/CBC/01-linux/my-work/
+CourseTimeLine-DSAI-JAN-2026-AM 2.pdf              D76989GC20_sg 9.pdf                                file2.txt                                          test.txt.txt
+D76989GC20_ag 9.pdf                                Data_AI_Program_Overview_Microsoft_Courses 3.pptx  file3.txt
+D76989GC20_ppt 1.zip                               Practice Sheets/                                   lab/
+mark@HomeOfficeHP:/$ mnt/c/CBC/01-linux/my-work/
+CourseTimeLine-DSAI-JAN-2026-AM 2.pdf              D76989GC20_sg 9.pdf                                file2.txt                                          test.txt.txt
+D76989GC20_ag 9.pdf                                Data_AI_Program_Overview_Microsoft_Courses 3.pptx  file3.txt
+D76989GC20_ppt 1.zip                               Practice Sheets/                                   lab/
+mark@HomeOfficeHP:/$ cp mnt/c/CBC/01-linux/my-work/lab/
+dir1/      dir2/      dir3/      dir4/      dir5/      dir6/      file.1     file.2     fruits     fruits2    house/     practice1/
+mark@HomeOfficeHP:/$ cd /mnt/c/CBC/01-linux/my-work/lab/
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ pwd
+/mnt/c/CBC/01-linux/my-work/lab
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls dir1
+abc  coffees
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l dir1
+total 0
+-rwxrwxrwx 1 mark mark   74 Feb  2 11:28 abc
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 coffees
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l
+total 8
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 dir1
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 dir2
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 dir3
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:25 dir4
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:19 dir5
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:11 dir6
+-rwxrwxrwx 1 mark mark 1255 Feb  2 11:28 file.1
+-rwxrwxrwx 1 mark mark 1255 Feb  2 11:28 file.2
+-rwxrwxrwx 1 mark mark   28 Feb  2 11:28 fruits
+-rwxrwxrwx 1 mark mark   28 Feb  5 10:02 fruits2
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 house
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 practice1
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ cp file.1 file.2 dir1/
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l dir1/
+total 8
+-rwxrwxrwx 1 mark mark   74 Feb  2 11:28 abc
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 coffees
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:40 file.1
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:40 file.2
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l dir1
+total 8
+-rwxrwxrwx 1 mark mark   74 Feb  2 11:28 abc
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 coffees
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:40 file.1
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:40 file.2
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ cp -i file.1 file.2 dir1/
+cp: overwrite 'dir1/file.1'? n
+cp: overwrite 'dir1/file.2'? n
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ cp --help
+Usage: cp [OPTION]... [-T] SOURCE DEST
+  or:  cp [OPTION]... SOURCE... DIRECTORY
+  or:  cp [OPTION]... -t DIRECTORY SOURCE...
+Copy SOURCE to DEST, or multiple SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+  -a, --archive                same as -dR --preserve=all
+      --attributes-only        don't copy the file data, just the attributes
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --copy-contents          copy contents of special files when recursive
+  -d                           same as --no-dereference --preserve=links
+      --debug                  explain how a file is copied.  Implies -v
+  -f, --force                  if an existing destination file cannot be
+                                 opened, remove it and try again (this option
+                                 is ignored when the -n option is also used)
+  -i, --interactive            prompt before overwrite (overrides a previous -n
+                                  option)
+  -H                           follow command-line symbolic links in SOURCE
+  -l, --link                   hard link files instead of copying
+  -L, --dereference            always follow symbolic links in SOURCE
+  -n, --no-clobber             do not overwrite an existing file and do not fail
+                                 (overrides a -u or previous -i option). See also
+                                 --update; equivalent to --update=none.
+  -P, --no-dereference         never follow symbolic links in SOURCE
+  -p                           same as --preserve=mode,ownership,timestamps
+      --preserve[=ATTR_LIST]   preserve the specified attributes
+      --no-preserve=ATTR_LIST  don't preserve the specified attributes
+      --parents                use full source file name under DIRECTORY
+  -R, -r, --recursive          copy directories recursively
+      --reflink[=WHEN]         control clone/CoW copies. See below
+      --remove-destination     remove each existing destination file before
+                                 attempting to open it (contrast with --force)
+      --sparse=WHEN            control creation of sparse files. See below
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -s, --symbolic-link          make symbolic links instead of copying
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  copy all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  --update[=UPDATE]            control which existing files are updated;
+                                 UPDATE={all,none,older(default)}.  See below
+  -u                           equivalent to --update[=older]
+  -v, --verbose                explain what is being done
+  -x, --one-file-system        stay on this file system
+  -Z                           set SELinux security context of destination
+                                 file to default type
+      --context[=CTX]          like -Z, or if CTX is specified then set the
+                                 SELinux or SMACK security context to CTX
+      --help        display this help and exit
+      --version     output version information and exit
+
+ATTR_LIST is a comma-separated list of attributes. Attributes are 'mode' for
+permissions (including any ACL and xattr permissions), 'ownership' for user
+and group, 'timestamps' for file timestamps, 'links' for hard links, 'context'
+for security context, 'xattr' for extended attributes, and 'all' for all
+attributes.
+
+By default, sparse SOURCE files are detected by a crude heuristic and the
+corresponding DEST file is made sparse as well.  That is the behavior
+selected by --sparse=auto.  Specify --sparse=always to create a sparse DEST
+file whenever the SOURCE file contains a long enough sequence of zero bytes.
+Use --sparse=never to inhibit creation of sparse files.
+
+UPDATE controls which existing files in the destination are replaced.
+'all' is the default operation when an --update option is not specified,
+and results in all existing files in the destination being replaced.
+'none' is similar to the --no-clobber option, in that no files in the
+destination are replaced, but also skipped files do not induce a failure.
+'older' is the default operation when --update is specified, and results
+in files being replaced if they're older than the corresponding source file.
+
+When --reflink[=always] is specified, perform a lightweight copy, where the
+data blocks are copied only when modified.  If this is not possible the copy
+fails, or if --reflink=auto is specified, fall back to a standard copy.
+Use --reflink=never to ensure a standard copy is performed.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+As a special case, cp makes a backup of SOURCE when the force and backup
+options are given and SOURCE and DEST are the same name for an existing,
+regular file.
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/cp>
+or available locally via: info '(coreutils) cp invocation'
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ mv --help
+Usage: mv [OPTION]... [-T] SOURCE DEST
+  or:  mv [OPTION]... SOURCE... DIRECTORY
+  or:  mv [OPTION]... -t DIRECTORY SOURCE...
+Rename SOURCE to DEST, or move SOURCE(s) to DIRECTORY.
+
+Mandatory arguments to long options are mandatory for short options too.
+      --backup[=CONTROL]       make a backup of each existing destination file
+  -b                           like --backup but does not accept an argument
+      --debug                  explain how a file is copied.  Implies -v
+  -f, --force                  do not prompt before overwriting
+  -i, --interactive            prompt before overwrite
+  -n, --no-clobber             do not overwrite an existing file
+If you specify more than one of -i, -f, -n, only the final one takes effect.
+      --no-copy                do not copy if renaming fails
+      --strip-trailing-slashes  remove any trailing slashes from each SOURCE
+                                 argument
+  -S, --suffix=SUFFIX          override the usual backup suffix
+  -t, --target-directory=DIRECTORY  move all SOURCE arguments into DIRECTORY
+  -T, --no-target-directory    treat DEST as a normal file
+  --update[=UPDATE]            control which existing files are updated;
+                                 UPDATE={all,none,older(default)}.  See below
+  -u                           equivalent to --update[=older]
+  -v, --verbose                explain what is being done
+  -Z, --context                set SELinux security context of destination
+                                 file to default type
+      --help        display this help and exit
+      --version     output version information and exit
+
+UPDATE controls which existing files in the destination are replaced.
+'all' is the default operation when an --update option is not specified,
+and results in all existing files in the destination being replaced.
+'none' is similar to the --no-clobber option, in that no files in the
+destination are replaced, but also skipped files do not induce a failure.
+'older' is the default operation when --update is specified, and results
+in files being replaced if they're older than the corresponding source file.
+
+The backup suffix is '~', unless set with --suffix or SIMPLE_BACKUP_SUFFIX.
+The version control method may be selected via the --backup option or through
+the VERSION_CONTROL environment variable.  Here are the values:
+
+  none, off       never make backups (even if --backup is given)
+  numbered, t     make numbered backups
+  existing, nil   numbered if numbered backups exist, simple otherwise
+  simple, never   always make simple backups
+
+GNU coreutils online help: <https://www.gnu.org/software/coreutils/>
+Report any translation bugs to <https://translationproject.org/team/>
+Full documentation <https://www.gnu.org/software/coreutils/mv>
+or available locally via: info '(coreutils) mv invocation'
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l
+total 8
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:40 dir1
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 dir2
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 dir3
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:25 dir4
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:19 dir5
+drwxrwxrwx 1 mark mark 4096 Feb  5 10:11 dir6
+-rwxrwxrwx 1 mark mark 1255 Feb  2 11:28 file.1
+-rwxrwxrwx 1 mark mark 1255 Feb  2 11:28 file.2
+-rwxrwxrwx 1 mark mark   28 Feb  2 11:28 fruits
+-rwxrwxrwx 1 mark mark   28 Feb  5 10:02 fruits2
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 house
+drwxrwxrwx 1 mark mark 4096 Feb  3 11:21 practice1
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ mv fruits2 ~
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l ~
+total 4
+-rwxrwxrwx 1 mark mark 28 Feb  5 10:02 fruits2
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ cd ~
+mark@HomeOfficeHP:~$ ls -l
+total 4
+-rwxrwxrwx 1 mark mark 28 Feb  5 10:02 fruits2
+mark@HomeOfficeHP:~$ pwd
+/home/mark
+mark@HomeOfficeHP:~$ cd /mnt/c/CBC/
+mark@HomeOfficeHP:/mnt/c/CBC$
+mark@HomeOfficeHP:/mnt/c/CBC$ ls -l 01-linux/my-work/lab/dir4
+total 8
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:25 myvegies
+-rwxrwxrwx 1 mark mark 1263 Feb  2 11:28 roses
+mark@HomeOfficeHP:/mnt/c/CBC$ mv ~/
+.bash_history              .bashrc                    .landscape/                .motd_shown                .sudo_as_admin_successful
+.bash_logout               .cache/                    .lesshst                   .profile                   fruits2
+mark@HomeOfficeHP:/mnt/c/CBC$ mv ~/
+.bash_history              .bashrc                    .landscape/                .motd_shown                .sudo_as_admin_successful
+.bash_logout               .cache/                    .lesshst                   .profile                   fruits2
+mark@HomeOfficeHP:/mnt/c/CBC$ mv ~/fruits2 01-linux/my-work/lab/dir4/
+mark@HomeOfficeHP:/mnt/c/CBC$ cd ~
+mark@HomeOfficeHP:~$ ls -l
+total 0
+mark@HomeOfficeHP:~$ ls -l /mnt/c/CBC/01-linux/my-work/lab/dir4/
+total 8
+-rwxrwxrwx 1 mark mark   28 Feb  5 10:02 fruits2
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:25 myvegies
+-rwxrwxrwx 1 mark mark 1263 Feb  2 11:28 roses
+mark@HomeOfficeHP:~$ ls -l dir4/
+ls: cannot access 'dir4/': No such file or directory
+mark@HomeOfficeHP:~$ cd /mnt/c/CBC/01-linux/my-work/lab/
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$ ls -l dir4/
+total 8
+-rwxrwxrwx 1 mark mark   28 Feb  5 10:02 fruits2
+-rwxrwxrwx 1 mark mark 1255 Feb  5 10:25 myvegies
+-rwxrwxrwx 1 mark mark 1263 Feb  2 11:28 roses
+mark@HomeOfficeHP:/mnt/c/CBC/01-linux/my-work/lab$
