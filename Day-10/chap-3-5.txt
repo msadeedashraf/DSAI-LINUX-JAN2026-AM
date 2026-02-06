@@ -1,0 +1,14 @@
+Microsoft Windows [Version 10.0.22631.4890]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\msade>wsl
+sadeed@sadeed:/mnt/c/Users/msade$ cd /mnt/c/cbc/
+DSAI/             DSAI-Jan-2026-AM/ PDocs/            StudentGrades/    backgrouds/       wsl/
+sadeed@sadeed:/mnt/c/Users/msade$ cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/
+.git/      Books/     Day-04/    Day-06/    Day-08/    Day-09/    Day-10/    FinalExam/ lab/
+sadeed@sadeed:/mnt/c/Users/msade$ cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+sadeed@sadeed:/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab$ vi
+-/                dante_link        dir2/             dir4/             dir6/             file.2            fruits            lab2/             practice1/        ~mark
+Reports/          dir1/             dir3/             dir5/             file.1            first_letter.txt  house/            myletters/        usr/
+sadeed@sadeed:/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab$ vi file.2
+sadeed@sadeed:/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab$
