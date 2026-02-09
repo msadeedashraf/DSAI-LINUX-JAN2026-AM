@@ -1,0 +1,440 @@
+    1  cd ../..
+    2  dir
+    3  cd cbc/
+    4  dir
+    5  cd DSAI-Jan-2026-AM/
+    6  cd 01-linux/DSAI-LINUX-JAN2026-AM/
+    7  ls -R
+    8  sudo dmidecode -t memory
+    9  lspci
+   10  sudo apt update
+   11  exit
+   12  cd /
+   13  pwd
+   14  cd ~
+   15  pwd
+   16  cd /
+   17  ls
+   18  ls -l
+   19  su 
+   20  su /
+   21  su -
+   22  su sadeed
+   23  wsl -u root
+   24  exit
+   25  ls -l
+   26  cd /
+   27  ls -l
+   28  cd ~
+   29  pwd
+   30  cd /home/sadeed/
+   31  cd ~
+   32  pwd
+   33  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/
+   34  ls -l
+   35  pwd
+   36  cd /home/sadeed/
+   37  pwd
+   38  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/
+   39  cd ~
+   40  pwd
+   41  cd /
+   42  date; uname
+   43  date
+   44  uname
+   45  date; uname
+   46  man dtae
+   47  man date
+   48  man -k list
+   49  man -k listing
+   50  man -k copy
+   51  cp --help
+   52  man -k remove
+   53  rm --help
+   54  ls -l
+   55  cd mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir6
+   56  rm -i amro.txt 
+   57  rm -i amro
+   58  rm amro.txt 
+   59  ls -l
+   60  cd ..
+   61  cd dir5
+   62  ls -l
+   63  rm -i test.md 
+   64  ls -l
+   65  man -k remove
+   66  ls -l
+   67  cd /
+   68  ls -l
+   69  ls /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+   70  ls -l /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+   71  ls -lr /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+   72  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+   73  ls dir1
+   74  ls /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+   75  ls dir2
+   76  ls dir3
+   77  ls -l
+   78  ls
+   79  ls -l dir3
+   80  ls -ld dir3
+   81  ls -lR dir3
+   82  ls -lR 
+   83  cd dir3
+   84  ls
+   85  ls -l
+   86  cd ..
+   87  cd dir2
+   88  ls
+   89  ls -F
+   90  file --help
+   91  ls -l
+   92  file beans 
+   93  cd
+   94  cd ~
+   95  ls /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+   96  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+   97  cd ..
+   98  pwd
+   99  cd
+  100  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+  101  ls -l
+  102  cd
+  103  pwd
+  104  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+  105  cd /
+  106  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+  107  cd ~
+  108  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+  109  cd
+  110  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1
+  111  ls -l
+  112  cat abc 
+  113  cd /
+  114  ls -l
+  115  cat /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/dir1/abc 
+  116  ls -l
+  117  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  118  ls -l
+  119  cat fruits 
+  120  cat /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  121  more /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  122  less --help
+  123  head /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  124  head 5 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  125  head -5 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  126  head 2 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  127  head -2 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/file.1
+  128  head -2 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  129  head -5 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  130  tail -5 /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  131  wc
+  132  wc /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  133  wc -w /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  134  wc -l /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  135  wc -m /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/usr/dict/words 
+  136  ls -l
+  137  cat file.2
+  138  cat file.1
+  139  diff file.1 file.2
+  140  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  141  ls -l
+  142  cp file.1 file.2 practice2
+  143  cp -R file.1 file.2 practice2
+  144  cp -r file.1 file.2 practice2
+  145  cp --help
+  146  ls -l
+  147  mkdir letters
+  148  mv practice1 letters/
+  149  ls -l letters/
+  150  ls -lR letters/
+  151  ls -l
+  152  mv letters/ myletters
+  153  ls -l
+  154  mkdir house
+  155  mkdir -p house
+  156  ls -l house/
+  157  ls -l myletters/
+  158  touch first_letter.txt
+  159  ls -l myletters/
+  160  ls -l
+  161  mkdir Reports/Weekly
+  162  mkdir - Reports/Weekly
+  163  mkdir -p Reports/Weekly
+  164  rm Reports/Weekly/
+  165  rmdir Reports/Weekly/
+  166  ls -l Reports/
+  167  ls -l
+  168  ls -l myletters/
+  169  touch myletters/projection
+  170  ls -l myletters/
+  171  rm myletters/projection 
+  172  ls -l myletters/
+  173  mkdir lab2
+  174  cd lab2/
+  175  ls -l
+  176  touch file{1..10}.txt
+  177  ls -l
+  178  rm -i file*
+  179  n
+  180  ls -l
+  181  cd /
+  182  ls -l
+  183  cd mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  184  LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  185  echo $LAB
+  186  cd /
+  187  ls -l
+  188  cd $LAB
+  189  ls -l
+  190  cd /
+  191  cp $LAB/fruits $LAB/dir1
+  192  ls -l $LAB/dir1/
+  193  ls --help
+  194  ln --help
+  195  man -k hardlink
+  196  man -k link
+  197  cd $LAB
+  198  ls -l
+  199  cd /
+  200  ls -l
+  201  cd var/tmp/
+  202  cd /
+  203  cd $LAB
+  204  echo "This is a dante file we created" > dante
+  205  ls -l
+  206  cat dante 
+  207  mv dante /var/tmp/
+  208  ls -l
+  209  ln -s /var/tmp/dante dante_link
+  210  ls -l
+  211  ls -F
+  212  ls -lF
+  213  ls -F
+  214  echo "This is Mark's file we created" > dir1/mark
+  215  ls -l dir1/
+  216  cat dir1/mark 
+  217  echo "This is Mark's file we created" > ~mark
+  218  ls -l ~mark
+  219  ls -l ~
+  220  cd ~
+  221  echo "This is Mark's file we created" > ~/mark
+  222  ls -l
+  223  cd $LAB
+  224  ls -l
+  225  cat dante_link 
+  226  ls -l dir1
+  227  ls -l dir2
+  228  ls -l dir3
+  229  ls -l dir4
+  230  ls -l dir5
+  231  cd lab2/
+  232  ls -l
+  233  touch file42.txt
+  234  touch file32.txt
+  235  touch file12.txt
+  236  ls -l
+  237  ls -l file[0-9]
+  238  ls file[0-9]
+  239  ls -l
+  240  file[0-9]
+  241  file[2]
+  242  ls file[2]
+  243  ls file*
+  244  ls file*[2]
+  245  ls file*
+  246  ls file[0-9]
+  247  ls file[0-9].txt
+  248  ls file[0-9]*
+  249  ls -l file[0-9][]*
+  250  touch file33.txt
+  251  touch file19.txt
+  252  touch file26.txt
+  253  ls -l
+  254  ls -l file[0-9][2]
+  255  ls -l file[0-9][2]*
+  256  find -name file2*
+  257  find -name file26.txt 
+  258  find ../ -name file.1 
+  259  find ~/ -name mark
+  260  find ~/ -name m*
+  261  find -name *.txt
+  262  find -name file*
+  263  find -name file*.txt
+  264  find -name file19.*
+  265  ls -l *.txt
+  266  find --help
+  267  date
+  268  $(date +%Y)
+  269  $(date +%Y%m)
+  270  $(date +%Y%m%d)
+  271  touch sadeed_$(date +%Y%m%d)_{1..10}
+  272  ls -l
+  273  touch sadeed_$(date +%Y%m%d%h%min)_{1..10}
+  274  ls -l
+  275  $(date +%Y%m%d%H)
+  276  $(date +%Y%m%d%H%M)
+  277  touch Paraj_$(date +%Y%m%d%H%M)_{1..10}
+  278  ls -l
+  279  ls -l *Feb*
+  280  rm *Feb*
+  281  ls -l
+  282  locate mark
+  283  sudo apt install plocate
+  284  cd /
+  285  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  286  ls -l
+  287  LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  288  echo $LAB
+  289  cd lab2
+  290  ls -l
+  291  cat file26.txt 
+  292  cd ..
+  293  ls -l
+  294  cat fruits 
+  295  grep Apples fruits 
+  296  grep *es fruits 
+  297  grep Apples --color fruits 
+  298  cat '~mark' 
+  299  grep file '~mark' 
+  300  vim --help
+  301  ls -l
+  302  cat first_letter.txt 
+  303  vi fruits 
+  304  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  305  vi file.2
+  306  cd lab/
+  307  rm lab/dante_link
+  308  rm dante_link
+  309  cd ~
+  310  vim test-sadeed
+  311  vim -R test-sadeed 
+  312  vim -R test-sadeed
+  313  vim test-sadeed
+  314  vim fruits
+  315  vim test-sadeed 
+  316  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  317  $LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  318  LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  319  echo $LAB
+  320  ls -l
+  321  cat first_letter.txt 
+  322  cat file.2
+  323  cat file.1
+  324  cat file.3
+  325  cd dir1
+  326  ls -l
+  327  cat mark 
+  328  cd /
+  329  cd ~
+  330  dir
+  331  vim test-sadeed 
+  332  which vim
+  333  vimtutor
+  334  echo $LAB
+  335  echo $SHELL
+  336  ls -l $SHELL
+  337  cd $LAB
+  338  ls -l
+  339  ls -lR
+  340  ls -lR > lab-log
+  341  ls -l
+  342  touch lab/error
+  343  touch error
+  344  ls -l error 
+  345  ls /var
+  346  ls -l /var
+  347  ls -l /var /home/sadeed 
+  348  ls -l /var 1> error 
+  349  cat error 
+  350  ls -l /etc > error 
+  351  cat error 
+  352  rm error 
+  353  touch error
+  354  cat error 
+  355  ls -l /etc2 2> error 
+  356  cat error 
+  357  ls -l /etc2 1> error 
+  358  cat error 
+  359  ls -l /etc /etc2 1> error 2>&1
+  360  cat error 
+  361  touch normal_log
+  362  ls -l /etc /etc2 1> normal_log 2> error 
+  363  cat error 
+  364  cat normal_log 
+  365  ls -l /etc /etc2 
+  366  ls -l /etc/
+  367  grep dir
+  368  grep /dir
+  369  ls -l dir3 
+  370  ls -l dir2 
+  371  ls -l dir1 
+  372  grep "Mark" dir1/mark 
+  373  ls -F  
+  374  ls -F | grep "/"
+  375  set
+  376  set | wc l
+  377  set | wc 
+  378  set | wc -l
+  379  echo $PS1
+  380  echo $PS1 > promt
+  381  cat promt 
+  382  echo $LOGNAME
+  383  PS1="$LOGNAME `uname -n` \$PWD $ "
+  384  PS1="$LOGNAME `uname -n` \[\033[01;34]\\$PWD $ "
+  385  PS1="$LOGNAME `uname -n` \[\033[01;34]\$PWD $ "
+  386  PS1="$LOGNAME `uname -n` :\[\033[01;34]\$PWD $ "
+  387  PS1="$LOGNAME `uname -n` :\[\033[01;34\]\$PWD $ "
+  388  PS1="$LOGNAME `uname -n` :\[\033[01;34m\]\$PWD $ "
+  389  PS1="$LOGNAME `uname -n` :\[\033[01;34m\]\ $PWD $ "
+  390  exit
+  391  PS1="[\u@\h \W]"
+  392  cd ~
+  393  cd /mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  394  pwd
+  395  cd /mnt/
+  396  cd /mnt/c/cbc/
+  397  pwd
+  398  PS1="[\[\033[1;31m\]]\u@\h \W]"
+  399  PS1="[\[\033[1;31m\]\u@\h \W]"
+  400  PS1="[\[\033[1;31m\]\u@\h\[\033[0m\]]  \W]"
+  401  PS1="\[\033[1;31m\]\u@\h\[\033[0m\]]  \W"
+  402  PS1="\[\033[1;31m\]\u@\h\[\033[0m\]  \W"
+  403  PS1="\[\033[1;31m\]\u@\h\[\033[0m\]  \W :$"
+  404  PS1="\[\033[1;31m\]\u@\h\[\033[0m\]  \W $"
+  405  PS1="\[\033[1;31m\]\u@\h\[\033[0m\]  \W $:"
+  406  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$PWD $:"
+  407  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$W $:"
+  408  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \W $:"
+  409  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \[\033[1;33m\]\W[\033[0m\] $:"
+  410  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \[\033[1;33m\]\W\033[0m\] $:"
+  411  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] date \[\033[1;33m\]\W\033[0m\] $:"
+  412  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] `date` \[\033[1;33m\]\W\033[0m\] $:"
+  413  cls
+  414  clear
+  415  PS1="\[\033[1;31m\]\u@\h\[\033[0\             ] `date` \[\033[1;33m\]\W\033[0m\] $:"
+  416  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] `date` \[\033[1;33m\]\W\033[0m\] $:"PS1="\[\033[1;31m\]\u@\h\[\033[0m\] `date` \[\033[1;34m\]\W\033[0m\] $:"
+  417  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] `date` \[\033[1;34m\]\W\033[0m\] $:"PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$(date +%d%m%y%H%M) \[\033[1;34m\]\PWD\033[0m\] $:"
+  418  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$(date +%d%m%y%H%M) \[\033[1;34m\]\W\033[0m\] $:"
+  419  pwd
+  420  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$(date +%d%m%y%H%M) \[\033[1;34m\]\PWD\033[0m\] $:"
+  421  PS1="\[\033[1;31m\]\u@\h\[\033[0m\] \$(date +%d%m%y%H%M) \[\033[1;34m\]\$PWD\033[0m\] $:"
+  422  echo $PATH
+  423  which ls
+  424  $HISFILESIZE
+  425  echo $HISFILESIZE
+  426  echo $HISTFILESIZE
+  427  echo $HISTSIZE
+  428  history
+  429  export LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  430  echo $LAB
+  431  =/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN202-A
+  432  echo $LAB
+  433  export LAB=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/lab/
+  434  echo $LAB
+  435  export CBCCLASS=/mnt/c/cbc/DSAI-Jan-2026-AM/01-linux/DSAI-LINUX-JAN2026-AM/
+  436  echo $CBCCLASS
+  437  mkdir $CBCCLASS/Day-11
+  438  history
+  439  history > $CBCCLASS/Day-11/chap-4
+  440  history > $CBCCLASS/Day-11/chap-4.txt
