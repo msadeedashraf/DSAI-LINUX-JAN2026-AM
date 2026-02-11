@@ -1,0 +1,68 @@
+# --- Base Directories ---
+mkdir -p ~/Downloads
+mkdir -p ~/documents
+mkdir -p ~/projects/app
+mkdir -p ~/projects/planit
+mkdir -p ~/drafts
+mkdir -p ~/shared
+
+# --- Files for Section A ---
+# Q1: A zip file in Downloads
+echo "project files go here" > ~/Downloads/dummy1.txt
+zip -j ~/Downloads/project.zip ~/Downloads/dummy1.txt
+rm ~/Downloads/dummy1.txt
+
+# Q2: Some .txt files in documents
+echo "Report A" > ~/documents/doc1.txt
+echo "Report B" > ~/documents/doc2.txt
+
+# Q3: A large system.log
+for i in $(seq 1 200); do echo "Log line $i"; done > ~/documents/system.log
+
+# Q5: Draft files
+for i in {1..5}; do echo "draft $i" > ~/drafts/file$i.draft; done
+
+# Q6: A main.py
+echo -e "print('Line 1')\nprint('Line 2')\n# ... filler ..." > ~/projects/app/main.py
+for i in $(seq 3 100); do echo "print('Line $i')" >> ~/projects/app/main.py; done
+
+# Q7: Directories inside downloads
+mkdir -p ~/downloads/images ~/downloads/videos
+touch ~/downloads/file1.txt
+
+# Q8: A copy of notes.txt under Windows share
+mkdir -p /mnt/c/Users/Shared
+echo "Meeting notes" > /mnt/c/Users/Shared/notes.txt
+
+# Q9: Desktop with some docx files (simulate Windows Desktop)
+mkdir -p /mnt/c/Users/$USER/Desktop/subfolder
+echo "Word doc 1" > /mnt/c/Users/$USER/Desktop/file1.docx
+echo "Word doc 2" > /mnt/c/Users/$USER/Desktop/subfolder/file2.docx
+
+# Q10: Nested planit directory structure
+mkdir -p ~/projects/planit/src ~/projects/planit/tests
+touch ~/projects/planit/src/a.py ~/projects/planit/tests/test_a.py
+
+# Q11: A report.txt with mixed lines
+for i in $(seq 1 20); do
+  echo "INFO: line $i"
+  echo "ERROR: line $i"
+done > ~/documents/report.txt
+
+# Q12: Two similar directories with differences
+mkdir -p ~/version1 ~/version2
+echo "hello" > ~/version1/file.txt
+echo "hello world" > ~/version2/file.txt
+echo "new file" > ~/version2/file2.txt
+
+# --- Section B (Vim) ---
+# File to edit in Vim
+echo -e "line1\ndatabase config\nline50 marker\nline100" > ~/documents/config.txt
+for i in $(seq 4 60); do echo "line$i"; done >> ~/documents/config.txt
+
+# --- Section D (Permissions) ---
+echo "echo Deploying..." > ~/deploy.sh
+chmod 644 ~/deploy.sh
+
+# Shared directory content
+echo "Shared doc" > ~/shared/readme.txt
