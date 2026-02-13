@@ -31,8 +31,8 @@ mkdir -p ~/downloads/images ~/downloads/videos
 touch ~/downloads/file1.txt
 
 # Q8: A copy of notes.txt under Windows share
-mkdir -p /mnt/c/Users/Shared
-echo "Meeting notes" > /mnt/c/Users/Shared/notes.txt
+mkdir -p /mnt/c/test-lab/
+echo "Meeting notes" > /mnt/c/test-lab/notes.txt
 
 # Q9: Desktop with some docx files (simulate Windows Desktop)
 mkdir -p /mnt/c/Users/$USER/Desktop/subfolder

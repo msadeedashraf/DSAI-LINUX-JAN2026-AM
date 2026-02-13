@@ -32,7 +32,7 @@
 
 7. You want to see only directories (not files) in your `~/downloads` folder. Which command would you use?  
 
-8. You accidentally deleted the file `notes.txt` but remember you copied it earlier into `/mnt/c/Users/Shared`. Show the commands to:  
+8. You accidentally deleted the file `notes.txt` but remember you copied it earlier into `/mnt/c/test-lab/`. Show the commands to:  
    - confirm the file exists there,  
    - copy it back to your home folder.  
 
